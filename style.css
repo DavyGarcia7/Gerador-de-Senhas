@@ -1,0 +1,109 @@
+*{
+    font-family: sans-serif;
+    width: 100%;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+    body{
+        background-color: rgb(6, 19, 28);
+        width: 100%;
+        height: 70vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+    }
+
+    .logo{
+        max-width: 400px;
+        margin-bottom: 1px;
+
+    }
+
+    .container-input{
+        max-width: 350px;
+        margin: 14px 0;
+    }
+
+    .container-input span{
+        color: rgb(255, 255, 255);
+        font-size: 25px;
+    }
+
+    .slider{
+        -webkit-appearance: none;
+        width: 100%;
+        border-radius: 10px;
+        background: rgb(7, 192, 38);
+        height: 26px;
+        outline: none ;
+        margin-top: 8px;
+    }
+
+    .button-cta{
+        height: 50px;
+        background-color: rgb(255, 255, 255);
+        border-radius: 10px;
+        border: 0;
+        cursor: pointer;
+        margin-top: 40px;
+        color: rgb(4, 56, 72);
+        font-size: 20px;
+        font-weight: bold;
+        
+    }
+
+    .container-password {
+        max-width: 240px;
+        color: aliceblue;
+        font-size: 23px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        cursor: pointer;
+        margin: 14px 0;
+
+    }
+
+    .title {
+        text-align: center;
+        color: azure;
+        font-size: 30px;
+        margin-bottom: 8px;
+        
+    }
+
+    .password {
+        height: 60px;
+        background-color: rgb(59, 66, 66);
+        border-radius: 10px;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        border: 1px solid rgb(129, 196, 134);
+        transition: transform 0.5s;
+    }
+
+    .password:hover {
+        transform: scale(1.05);
+    }
+
+    .tooltip {
+        color: rgb(255, 255, 255);
+        position: relative;
+        top: 20px;
+        padding: 6px 8px;
+        visibility: hidden;
+    }
+
+    .hide {
+        display: none;
+    }
+
+    .container-password:hover .tooltip {
+        visibility: visible;
+        bottom: 50px;
+        opacity: 1;
+    }
+    
